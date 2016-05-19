@@ -1,0 +1,11 @@
+package org.fnet.theutilitymod.creativeTabs;
+
+import net.minecraft.creativetab.CreativeTabs;
+
+public class UtilityTab extends CreativeTabs {
+
+	public UtilityTab(String lable) {
+		super(lable);
+	}
+
+}

@@ -1,0 +1,9 @@
+package org.fnet.theutilitymod.proxies;
+
+public class ClientSide extends ServerProxy {
+
+	public void registerRenderInfo() {
+		
+	}
+	
+}

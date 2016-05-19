@@ -1,0 +1,5 @@
+package org.fnet.theutilitymod.proxies;
+
+public class ServerProxy {
+
+}

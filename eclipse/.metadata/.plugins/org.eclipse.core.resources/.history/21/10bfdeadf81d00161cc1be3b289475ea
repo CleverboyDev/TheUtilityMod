@@ -1,0 +1,7 @@
+package org.fnet.theutilitymod.blocks;
+
+import net.minecraft.block.BlockOre;
+
+public class SapphireOre extends BlockOre {
+
+}

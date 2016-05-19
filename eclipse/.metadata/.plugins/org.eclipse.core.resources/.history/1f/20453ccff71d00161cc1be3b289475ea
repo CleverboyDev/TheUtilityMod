@@ -1,0 +1,14 @@
+package org.fnet.theutilitymod.items;
+
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemSword;
+
+public class SapphireSword extends ItemSword {
+	
+	public SapphireSword() {
+		super(null);
+		this.setUnlocalizedName("sapphireSword");
+	}
+	
+}

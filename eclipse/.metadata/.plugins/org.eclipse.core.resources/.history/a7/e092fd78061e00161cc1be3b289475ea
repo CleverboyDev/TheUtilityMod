@@ -1,0 +1,11 @@
+package org.fnet.theutilitymod.items;
+
+import net.minecraft.item.Item;
+
+public class Sapphire extends Item {
+
+	public Sapphire() {
+		super();
+	}
+	
+}

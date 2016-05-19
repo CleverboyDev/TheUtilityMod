@@ -1,0 +1,31 @@
+package org.fnet.theutilitymod;
+
+import org.fnet.theutilitymod.items.SapphireSword;
+import org.fnet.theutilitymod.proxies.ServerProxy;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+@Mod(modid = "theutilitymod", version = "1.0", name = "The Utility Mod")
+public class TheUtilityMod {
+
+	@SidedProxy(clientSide = "org.fnet.theutilitymod.proxies.ClientProxy", serverSide = "org.fnet.theutilitymod.proxies.ServerProxy")
+	public static ServerProxy proxy;
+	
+	@EventHandler
+	public void preInit(FMLPreInitializationEvent event) {
+		SapphireSword sapphireSword = new SapphireSword();
+		GameRegistry.registerItem(sapphireSword, sapphireSword.getUnlocalizedName());
+		proxy.registerRenderInfo();
+	}
+
+	@EventHandler
+	public void init(FMLInitializationEvent event) {
+		
+	}
+
+}

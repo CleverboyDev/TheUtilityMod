@@ -1,0 +1,7 @@
+package org.fnet.theutilitymod.creativeTabs;
+
+import net.minecraft.creativetab.CreativeTabs;
+
+public class UtilityTab extends CreativeTabs {
+
+}

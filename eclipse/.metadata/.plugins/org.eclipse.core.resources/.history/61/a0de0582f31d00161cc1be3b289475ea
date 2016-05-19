@@ -1,0 +1,27 @@
+package org.fnet.theutilitymod;
+
+import org.fnet.theutilitymod.proxies.ServerProxy;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid = "theutilitymod", version = "1.0", name = "The Utility Mod")
+public class ExampleMod {
+
+	@SidedProxy(clientSide = "org.fnet.theutilitymod.proxies.ClientProxy", serverSide = "org.fnet.theutilitymod.proxies.ServerProxy")
+	public static ServerProxy proxy;
+	
+	@EventHandler
+	public void preInit(FMLPreInitializationEvent event) {
+		proxy.registerRenderInfo();
+	}
+
+	@EventHandler
+	public void init(FMLInitializationEvent event) {
+		
+	}
+
+}

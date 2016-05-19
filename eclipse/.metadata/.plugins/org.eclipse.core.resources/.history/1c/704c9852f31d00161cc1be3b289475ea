@@ -1,0 +1,9 @@
+package org.fnet.theutilitymod.items;
+
+public class SapphireSword {
+
+	public static void mainRegistry() {
+		
+	}
+	
+}
