@@ -1,5 +1,7 @@
 package org.fnet.theutilitymod.blocks;
 
+import org.fnet.theutilitymod.TheUtilityMod;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;

@@ -15,8 +15,10 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.creativetab.CreativeTabs;
 
-@Mod(modid = "theutilitymod", version = "1.0", name = "The Utility Mod")
+@Mod(modid = TheUtilityMod.MODID, version = "1.0", name = "The Utility Mod")
 public class TheUtilityMod {
+	
+	public static final String MODID = "theutilitymod";
 
 	@SidedProxy(clientSide = "org.fnet.theutilitymod.proxies.ClientProxy", serverSide = "org.fnet.theutilitymod.proxies.ServerProxy")
 	public static ServerProxy proxy;

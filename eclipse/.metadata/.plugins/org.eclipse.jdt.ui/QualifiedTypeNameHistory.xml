@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.event.FMLPreInitializationEvent"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.SidedProxy"/>
+<fullyQualifiedTypeName name="org.fnet.theutilitymod.proxies.ServerProxy"/>
+<fullyQualifiedTypeName name="org.fnet.theutilitymod.items.SapphireSword"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.event.FMLInterModComms"/>
+<fullyQualifiedTypeName name="org.fnet.theutilitymod.creativeTabs.UtilityTab"/>
+<fullyQualifiedTypeName name="net.minecraft.item.ItemSword"/>
+<fullyQualifiedTypeName name="net.minecraft.block.BlockOre"/>
+<fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
+<fullyQualifiedTypeName name="net.minecraft.block.Block"/>
+<fullyQualifiedTypeName name="net.minecraft.creativetab.CreativeTabs"/>
+<fullyQualifiedTypeName name="org.fnet.theutilitymod.blocks.SapphireOre"/>
+<fullyQualifiedTypeName name="cpw.mods.fml.common.registry.GameRegistry"/>
+<fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+<fullyQualifiedTypeName name="org.fnet.theutilitymod.items.Sapphire"/>
+<fullyQualifiedTypeName name="org.fnet.theutilitymod.TheUtilityMod"/>
+</qualifiedTypeNameHistroy>
